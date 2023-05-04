@@ -1,0 +1,103 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.game-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.game-header img {
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+}
+
+.game-header h1 {
+    font-size: 2em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    transition: transform 0.2s ease-in-out;
+}
+
+.game-header h1:hover {
+    transform: scale(1.1);
+}
+
+.level-container,
+.main-container {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.level-container {
+    padding: 2rem 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+p {
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.buttons button {
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+#round-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.score-container {
+    margin-top: 2rem;
+}
+
+#player-score,
+#high-score {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+#result {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
