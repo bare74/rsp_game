@@ -75,6 +75,12 @@ p {
         flex-direction: column;
         gap: 20px;
     }
+
+    .buttons button {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+        padding: 0.5rem 1rem;
+    }
 }
 
 #round-image {
